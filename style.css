@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #b97629;
+}
+.loading{
+    display: flex;
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+span{
+    padding: 0 20px;
+    line-height: 100px;
+    background: #11c9b9;
+    animation: animete 2s infinite;
+}
+@keyframes animete{
+    50%{
+        box-shadow: 0 20px 0 white;
+        transform: translateY(-35px);
+    }
+}
